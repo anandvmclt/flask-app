@@ -1,0 +1,21 @@
+# Python related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyc
+
+# Virtual Environment
+venv/
+ENV/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDE/Editor files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
