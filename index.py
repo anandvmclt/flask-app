@@ -15,8 +15,8 @@ def hello():
     return "Hello from Python Flask App!"
 
 @app.route('/home')
-def hello():
-    # Returning a string "Hello from Python Flask App!" as the response
+def home():
+    # Returning a string "Jai Ganesh !" as the response
     return "Jai Ganesh !"
 
 
