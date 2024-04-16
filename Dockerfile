@@ -11,10 +11,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the Python application code into the container
-COPY app.py .
+COPY index.py .
 
 # Expose the port on which the Flask app runs
 EXPOSE 5000
 
 # Specify the command to run the Flask application
-CMD ["python", "app.py"]
+CMD ["python", "index.py"]

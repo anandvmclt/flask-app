@@ -1,4 +1,4 @@
-# app.py
+# index.py
 
 # Importing the Flask class from the flask module
 from flask import Flask
@@ -13,6 +13,11 @@ app = Flask(__name__)
 def hello():
     # Returning a string "Hello from Python Flask App!" as the response
     return "Hello from Python Flask App!"
+
+@app.route('/home')
+def hello():
+    # Returning a string "Hello from Python Flask App!" as the response
+    return "Jai Ganesh !"
 
 
 # Entry point of the application. This block ensures that the app is run only if executed directly, not imported as a module.
