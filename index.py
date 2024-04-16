@@ -17,7 +17,7 @@ def hello():
 @app.route('/home')
 def home():
     # Returning a string "Jai Sree Ganesh !" as the response
-    return "Jai Sree Ganesh !"
+    return "Jai Sree Ganesh !!"
 
 
 # Entry point of the application. This block ensures that the app is run only if executed directly, not imported as a module.
