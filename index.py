@@ -20,6 +20,12 @@ def home():
     return "Jai Sri Ganesh !"
 
 
+@app.route('/about')
+def about():
+    # Returning a about page as the response
+    return "About Us Page !"
+
+
 # Entry point of the application. This block ensures that the app is run only if executed directly, not imported as a module.
 if __name__ == '__main__':
     # Running the Flask application on the specified host ('0.0.0.0') and port (5000)
