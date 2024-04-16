@@ -17,13 +17,13 @@ def hello():
 @app.route('/home')
 def home():
     # Returning a string "Jai Sree Ganesh !" as the response
-    return "Jai Sri Ganesh !"
+    return "Jai  Ganesh !"
 
 
 @app.route('/about')
 def about():
     # Returning a about page as the response
-    return "About Us Page !"
+    return "About Us Page Added !"
 
 
 # Entry point of the application. This block ensures that the app is run only if executed directly, not imported as a module.
